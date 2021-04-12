@@ -1,0 +1,112 @@
+header,
+footer,
+nav,
+figcaption {
+  display: block;
+}
+body {
+  color: #666666;
+  background-color: #f9f8f6;
+  background-image: url(../images/dark-wood.jpg);
+  background-position: center;
+  font-family: verdana, algerian, serif;
+  line-height: 1.4em;
+  margin: 0px;
+}
+.wrapper {
+  width: 940px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+.detalles {
+  display: flex;
+  align-items: center;
+}
+.ret {
+  align-items: center;
+  margin: 0px 10px 0px auto;
+}
+.ret h6 {
+  align-items: center;
+  margin: 0px 10px 0px auto;
+}
+.ico {
+  width: 50px;
+  margin-top: 16px;
+}
+.detalle {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.promes {
+  color: rgb(63, 21, 143);
+}
+header {
+  height: 160px;
+  background-image: url(../images/banner.jpg);
+  width: 100%;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+nav,
+footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+nav li a {
+  color: #ffffff;
+}
+nav li a:hover,
+nav li a.current {
+  color: #000000;
+}
+
+.mapa a {
+  display: block;
+  padding: 10px;
+  margin: 0px 20px 0px 20px;
+  border-bottom: 1px solid #7c1414;
+}
+
+a {
+  color: #fff0f3;
+  text-decoration: none;
+}
+h2 {
+  margin: 10px 0px 10px 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+
+.pie h2 {
+  padding: 30px 20px 10px 20px;
+  color: #690303;
+}
+footer {
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
+}
+.pie {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #027766;
+  margin: 20px auto 0px auto;
+}
